@@ -21,16 +21,16 @@ import { MobileNav } from "../MobileNav/MobileNav";
 
                     <ul>
                         <li>
-                            <a className= "menu-item" href="">Home</a>
+                            <a className= "menu-item" href="#">Home</a>
                         </li>
                         <li>
-                            <a className= "menu-item" href="">Skills</a>
+                            <a className= "menu-item" href="#skills">Skills</a>
                         </li>
                         <li>
-                            <a className= "menu-item" href="">Work Experience</a>
+                            <a className= "menu-item" href="#workexperience">Work Experience</a>
                         </li>
                         <li>
-                            <a className= "menu-item" href="">Contact Me</a>
+                            <a className= "menu-item" href="#contact-me">Contact Me</a>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>

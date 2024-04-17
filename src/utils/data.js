@@ -59,6 +59,8 @@ export const WORK_EXPERIENCE = [
             "Contributed to creating a more welcoming environment for children at ICR."
 
     ],
+    deployLink: "",
+    githubLink: "https://github.com/BigFive-tech/Site-HC-Next-React",
     },
 
     {

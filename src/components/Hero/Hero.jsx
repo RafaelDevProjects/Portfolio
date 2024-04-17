@@ -5,10 +5,17 @@ const Hero = () => {
   return (
     <section className='hero-container'>
         <div className='hero-content'>
-            <h2>Building Digital Experiences That Inspire</h2>
+            <h2>Hey, I'm Rafael</h2>
             <p>
-                Passionate BackEnd Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions
+                Creative BackEnd Developer | Fixing Complex Problems with Back End Programming Solutions
             </p> 
+            <br />
+            <p>🎓Graduated in Software Engineering from FIAP.</p>
+            <p>☕Experience in software development, from college to professional projects.</p>
+            <p>💻Proficient in C#, JavaScript, Python, and frameworks like React.</p>
+            <p>🌐Interested in technology, machine learning, and sustainable software development.</p>
+
+            
         </div>
 
         <div className='hero-img'>
