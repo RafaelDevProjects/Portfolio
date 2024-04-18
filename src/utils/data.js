@@ -59,35 +59,29 @@ export const WORK_EXPERIENCE = [
             "Contributed to creating a more welcoming environment for children at ICR."
 
     ],
-    deployLink: "",
+    deployLink: "https://site-hc.vercel.app/",
     githubLink: "https://github.com/BigFive-tech/Site-HC-Next-React",
     },
 
     {
-        title:"Challenge ICR",
-        date:"August/2023 - May/2024",
+        title:"Nada por aqui ainda",
+        date:"EM BREVE",
         resposibilities: [
-            "Participated in the Hospital das Clínicas challenge promoted by FIAP.",
-            "Contributed to the development of a web platform for the Children's and Adolescents' Institute (ICR).",
-            "Collaborated in project management, ensuring deadlines and goals were met.",
-            "Worked on the interface using React technology.",
-            "Assisted in the conception and implementation of interactive games and explanatory videos tailored for the pediatric audience.",
-            "Contributed to creating a more welcoming environment for children at ICR."
+            
 
     ],
+    deployLink: "",
+    githubLink: "",
     },
 
     {
-        title:"Challenge ICR",
-        date:"August/2023 - May/2024",
+        title:"Nada por aqui ainda",
+        date:"EM BREVE",
         resposibilities: [
-            "Participated in the Hospital das Clínicas challenge promoted by FIAP.",
-            "Contributed to the development of a web platform for the Children's and Adolescents' Institute (ICR).",
-            "Collaborated in project management, ensuring deadlines and goals were met.",
-            "Worked on the interface using React technology.",
-            "Assisted in the conception and implementation of interactive games and explanatory videos tailored for the pediatric audience.",
-            "Contributed to creating a more welcoming environment for children at ICR."
+            
 
     ],
+    deployLink: "",
+    githubLink: "",
     },
 ]
