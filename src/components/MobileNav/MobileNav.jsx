@@ -9,7 +9,7 @@ export const MobileNav = ({ isOpen, toggleMenu }) => {
             onClick={toggleMenu}
         >
             <div className='mobile-menu-container'>
-                <img className = "logo" src="./assets/images/imagemportifolioNavMobile.png" alt="" />
+                <img className = "logo" src="" alt="" />
 
                 <ul>
                         <li>
