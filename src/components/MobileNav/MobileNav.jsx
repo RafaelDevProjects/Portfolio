@@ -2,6 +2,11 @@ import React from 'react'
 import './MobileNav.css'
 
 export const MobileNav = ({ isOpen, toggleMenu }) => {
+
+    const sendEmail = () => {
+        window.location.href = 'mailto:rafaasigoli1@gmail.com';
+      };
+
   return (
     <>
         <div 
@@ -25,7 +30,7 @@ export const MobileNav = ({ isOpen, toggleMenu }) => {
                             <a className= "menu-item" href="#contact-me">Contact Me</a>
                         </li>
 
-                        <button className="contact-btn" onClick={() => {}}>
+                        <button className="contact-btn" onClick={sendEmail}>
                             Hire Me
                         </button>
                     </ul>
