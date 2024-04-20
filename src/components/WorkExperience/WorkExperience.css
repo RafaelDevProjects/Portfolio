@@ -9,27 +9,9 @@
     margin-bottom: 3rem;
 }
 
-.experience-card {
-    position: relative;
-}
 
-.card-buttons {
-    position: absolute;
-    bottom: 240px;
-    left: 50%;
-    transform: translateX(60%);
-    display: flex;
-    gap: 10px;
-}
 
-.card-button {
-    padding: 8px 16px;
-    background-color: #3D3072;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+
 
 .card-button:hover {
     background-color: #4f3a87;
@@ -73,8 +55,7 @@
     }
 
     .arrow-right {
-        right: 0rem;;
-
+        right: 0rem;
     }
 }
 

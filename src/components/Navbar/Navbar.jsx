@@ -10,6 +10,10 @@ import { MobileNav } from "../MobileNav/MobileNav";
         setOpenMenu(!openMenu);
     };
 
+    const sendEmail = () => {
+        window.location.href = 'mailto:rafaasigoli1@gmail.com';
+      };
+
     return (
         <>
         <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
@@ -33,7 +37,7 @@ import { MobileNav } from "../MobileNav/MobileNav";
                             <a className= "menu-item" href="#contact-me">Contact Me</a>
                         </li>
 
-                        <button className="contact-btn" onClick={() => {}}>
+                        <button className="contact-btn" onClick={sendEmail}>
                             Hire Me
                         </button>
                     </ul>

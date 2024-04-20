@@ -46,14 +46,6 @@ const WorkExperience = () => {
                     {WORK_EXPERIENCE.map((item) => (
                         <div key={item.title} className="experience-card">
                             <ExperienceCard details={item} />
-                            <div className="card-buttons">
-                                <a href={item.deployLink} target="_blank" rel="noopener noreferrer">
-                                    <button className="card-button">Deploy</button>
-                                </a>
-                                <a href={item.githubLink} target="_blank" rel="noopener noreferrer">
-                                    <button className="card-button">GitHub</button>
-                                </a>
-                            </div>
                         </div>
                     ))}
                 </Slider>

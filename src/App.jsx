@@ -1,26 +1,24 @@
 import React from "react";
 import './App.css'
-import Navbar from "./components/Navbar/Navbar"
-import Hero from "./components/Hero/Hero"
-import Skills from "./components/Skills/Skills";
-import WorkExperience from "./components/WorkExperience/WorkExperience";
-import ContactMe from "./components/ContactMe/ContactMe";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import NotFound from "./Pages/NotFound/NotFound"; // Importe o componente NotFound
+import MainPage from "./Pages/MainPage/MainPage";
 
 const App = () => {
   return (
-    <>
-      <Navbar/>
+    <Router>
+      <Navbar />
       <div className="container">
-        <Hero />
-        <Skills />
-        <WorkExperience />
-        <ContactMe />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </div>
-      <Footer/>
-      
-    </>
-  )
-}
+      <Footer />
+    </Router>
+  );
+};
 
 export default App;
