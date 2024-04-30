@@ -48,15 +48,10 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title:"Challenge ICR",
-        date:"August/2023 - May/2024",
+        title:"Site para ICR dos Hospitais das Clínicas (HC)",
+        date:"React | HTML | CSS",
         resposibilities: [
-            "Participated in the Hospital das Clínicas challenge promoted by FIAP.",
-            "Contributed to the development of a web platform for the Children's and Adolescents' Institute (ICR).",
-            "Collaborated in project management, ensuring deadlines and goals were met.",
-            "Worked on the interface using React technology.",
-            "Assisted in the conception and implementation of interactive games and explanatory videos tailored for the pediatric audience.",
-            "Contributed to creating a more welcoming environment for children at ICR."
+            "React website for the Children's and Adolescent's Institute (ICR), part of the Hospital das Clínicas (HC). This website aims to inform parents and guardians about the hospital's operations, including credentials, services, and available exams. Additionally, it offers an interactive section with animated videos explaining medical exams, specially designed for children. With a responsive design, the website ensures a consistent user experience across different devices, providing support and guidance to the entire community.",
 
     ],
     deployLink: "https://site-hc.vercel.app/",
@@ -64,14 +59,13 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"Nada por aqui ainda",
-        date:"EM BREVE",
+        title:"Healthcare System",
+        date:"Python | SQL",
         resposibilities: [
-            
-
+            "Python software in PyCharm for a challenge from the Institute of Child and Adolescent (ICR) at Hospital das Clínicas (HC), in collaboration with FIAP. This scheduling and medical exam management system, using an SQL database for secure storage of patient information, reflects my commitment to child health and excellence in software development."
     ],
-    deployLink: "",
-    githubLink: "",
+    deployLink: "https://www.flexclip.com/pt/share/3852754cef408a4d38ecb7e8d7465f1ef57ad45.html",
+    githubLink: "https://github.com/RafaelDevProjects/Challenge_Python_menu_patient_HC",
     },
 
     {
