@@ -12,7 +12,7 @@ const Hero = () => {
             <br />
             <p>🎓Graduated in Software Engineering from FIAP.</p>
             <p>☕Experience in software development, from college to professional projects.</p>
-            <p>💻Proficient in C#, JavaScript, Python, and frameworks like React.</p>
+            <p>💻Proficient in <strong>C#</strong>, <strong>JavaScript</strong>, <strong>Python</strong>, and frameworks like <strong>React</strong>.</p>
             <p>🌐Interested in technology, machine learning, and sustainable software development.</p>
 
             
