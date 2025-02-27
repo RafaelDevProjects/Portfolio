@@ -5,15 +5,16 @@ const Hero = () => {
   return (
     <section className='hero-container'>
         <div className='hero-content'>
-            <h2>Hey, I'm Rafael</h2>
+            <h2>Olá, Eu sou o Rafael</h2>
             <p>
-                Creative BackEnd Developer | Fixing Complex Problems with Back End Programming Solutions
+                Desenvolvedor Full-stack criativo | Resolvendo Problemas Complexos com Soluções de Programação full-stack
             </p> 
             <br />
-            <p>🎓Graduated in Software Engineering from FIAP.</p>
-            <p>☕Experience in software development, from college to professional projects.</p>
-            <p>💻Proficient in <strong>C#</strong>, <strong>JavaScript</strong>, <strong>Python</strong>, and frameworks like <strong>React</strong>.</p>
-            <p>🌐Interested in technology, machine learning, and sustainable software development.</p>
+            <p>🎓Formação em Engenharia de Software na FIAP.</p>
+            <p>☕Experiência em desenvolvimento de software, desde a faculdade até projetos profissionais.</p>
+            <p>💻Proficiente em <strong>C# </strong>, <strong>Java </strong>, <strong>C/C++ </strong>,  <strong>Python </strong>, frameworks como <strong>Spring Boot </strong>,  <strong>React </strong> e banco de dados como <strong>MySQL </strong> <strong>PostgreSQL </strong> <strong>Oracle DB </strong> 
+            </p>
+            <p>🌐Interessado em tecnologia, aprendizado de máquina e desenvolvimento de software sustentável.</p>
 
             
         </div>
@@ -28,6 +29,12 @@ const Hero = () => {
             <div>
                 <div className='tech-icon'>
                     <img src="./assets/images/c-sharp-icon.png" alt="" />
+                </div>
+                <div className='tech-icon'>
+                    <img src="./assets/images/java-icon.png" alt="" />
+                </div>
+                <div className='tech-icon'>
+                    <img src="./assets/images/react-icon.png" alt="" />
                 </div>
                 <div className='tech-icon'>
                     <img src="./assets/images/react-icon.png" alt="" />
