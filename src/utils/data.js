@@ -49,9 +49,9 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
     {
         title:"Site para ICR dos Hospitais das Clínicas (HC)",
-        date:"React | HTML | CSS",
+        date:"React | HTML | CSS | Java | SpringBoot | MySQL",
         resposibilities: [
-            "React website for the Children's and Adolescent's Institute (ICR), part of the Hospital das Clínicas (HC). This website aims to inform parents and guardians about the hospital's operations, including credentials, services, and available exams. Additionally, it offers an interactive section with animated videos explaining medical exams, specially designed for children. With a responsive design, the website ensures a consistent user experience across different devices, providing support and guidance to the entire community.",
+            "Projeto desenvolvido para crianças e pais que frequentam o ICR. O site conta com uma área informativa sobre exames realizados no instituto, além de uma seção de jogos interativos para entreter as crianças. Além disso, inclui um chatbot para responder dúvidas dos pais na área informativa."
 
     ],
     deployLink: "https://site-hc.vercel.app/",
@@ -59,23 +59,30 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"Healthcare System",
-        date:"Python | SQL",
+        title:"APP do mecanico (Rede Âncora)",
+        date:"Java | SpringBoot | JWT | PostgreSQL | React Native",
         resposibilities: [
-            "Python software in PyCharm for a challenge from the Institute of Child and Adolescent (ICR) at Hospital das Clínicas (HC), in collaboration with FIAP. This scheduling and medical exam management system, using an SQL database for secure storage of patient information, reflects my commitment to child health and excellence in software development."
+            "Desenvolvimento de um aplicativo mobile para mecânicos que adquirem peças automotivas da Rede Âncora, facilitando a revenda ou a manutenção de veículos de forma ágil e eficiente."
     ],
-    deployLink: "https://www.flexclip.com/pt/share/3852754cef408a4d38ecb7e8d7465f1ef57ad45.html",
-    githubLink: "https://github.com/RafaelDevProjects/Challenge_Python_menu_patient_HC",
+    githubLink: "",
     },
 
     {
-        title:"Nada por aqui ainda",
-        date:"EM BREVE",
+        title:"Projeto SimuEnergi",
+        date:"Java | MySQL",
+        resposibilities: [ 
+            "O SimuEnergi é uma aplicação desktop desenvolvida em parceria com grandes organizações, como Ultragaz,Ultracargo, Fórmula-E e o Pacto Global Rede Brasil, com o objetivo de conscientizar sobre o consumo de energia elétrica e promover práticas sustentáveis"
+    ],
+    githubLink: "https://github.com/RafaelDevProjects/EletroSimulador",
+    },
+
+    {
+        title:"SeaBlueFurure",
+        date:"React | Python | Flask | SQLite",
         resposibilities: [
-            
+            "O SeaBlueFuture é uma plataforma online dedicada à conscientização, mobilização e ação em prol da preservação dos oceanos e do meio ambiente.  Meu objetivo é fornecer informações relevantes e impactantes sobre questões climáticas e oceânicas, destacando notícias importantes e tendências preocupantes, como enchentes, derretimento de geleiras e poluição por microplásticos. Através do nosso portal online, buscamos engajar e capacitar indivíduos a se tornarem agentes de mudança em suas comunidades."
 
     ],
-    deployLink: "",
-    githubLink: "",
+    githubLink: "https://github.com/RafaelDevProjects/SeaBlueFuture",
     },
 ]
