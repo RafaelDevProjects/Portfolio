@@ -16,30 +16,30 @@ export const SKILLS = [
         skills: [
             { skill: "Node.js", percentage: "50%" },
             { skill: "C#", percentage: "70%" },
-            { skill: "Python", percentage: "70%" },
-            { skill: "Express.js", percentage: "40%" },
+            { skill: "Python", percentage: "60%" },
+            { skill: "Java", percentage: "70%" },
+            { skill: "C/C++", percentage: "30%" },
         ],
     },
 
     {
-        title: "Tools",
+        title: "Frameworks",
         icon: "./assets/images/tools.png",
         skills: [
             { skill: "Git & GitHub", percentage: "80%" },
-            { skill: "Visual Studio Code", percentage: "75%" },
-            { skill: "Docker", percentage: "60%" },
-            { skill: "Slack", percentage: "90%" },
+            { skill: "Docker", percentage: "30%" },
+            { skill: "SpringBoot", percentage: "60%" },
         ],
     },
 
     {
-        title: "Soft Skills",
+        title: "Banco de dados",
         icon: "./assets/images/softskills.png",
         skills: [
-            { skill: "Problem-solving", percentage: "80%" },
-            { skill: "Collaboration", percentage: "85%" },
-            { skill: "Creative", percentage: "90%" },
-            { skill: "Attention to Detail", percentage: "80%" },
+            { skill: "MySQL", percentage: "80%" },
+            { skill: "PostgreSQL", percentage: "85%" },
+            { skill: "Oracle DB", percentage: "40%" },
+            { skill: "AWS", percentage: "20%%" },
         ],
     },
 

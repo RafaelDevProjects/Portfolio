@@ -24,14 +24,14 @@ export const MobileNav = ({ isOpen, toggleMenu }) => {
                             <a className= "menu-item" href="#skills">Skills</a>
                         </li>
                         <li>
-                            <a className= "menu-item" href="#workexperience">Projects</a>
+                            <a className= "menu-item" href="#workexperience">Projetos</a>
                         </li>
                         <li>
-                            <a className= "menu-item" href="#contact-me">Contact Me</a>
+                            <a className= "menu-item" href="#contact-me">Me contate</a>
                         </li>
 
                         <button className="contact-btn" onClick={sendEmail}>
-                            Hire Me
+                            me Contrate
                         </button>
                     </ul>
             </div>
